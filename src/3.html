@@ -6,43 +6,79 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Saseffects</title>
-  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/3.css">
   <link rel="stylesheet" href="/styles/tw.css">
-  
-  <!-- Tabler Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
-  
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <a href="#" class="group relative block bg-black w-full h-screen">
-    <img
-      alt=""
-      src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-      class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-    />
-  
-    <div class="relative p-4 sm:p-6 lg:p-8">
-      <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Twitch Streamer • Special Effects Makeup Artist</p>
-  
-      <p class="text-3xl font-bold text-white sm:text-3xl">Saseffects</p>
-  
-      <div class="mt-32 sm:mt-48 lg:mt-64">
-        <div
-          class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-        >
-          <p class="text-sm text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores
-            quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?
+<body class="bg-black min-h-full">
+  <div class="group relative block">
+    <img alt="" src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80" 
+    class="absolute inset-0 h-screen w-[100%] object-cover opacity-75 transition-opacity group-hover:opacity-50 sm:opacity-75 opacity-50" />
+
+    <div class="relative p-4 sm:p-6 lg:p-8 max-w-screen overflow-hidden">
+      <p class="text-sm font-medium uppercase tracking-widest text-pink-500 max-w-[90%] text-pretty">Twitch Streamer • Special Effects Makeup Artist</p>
+
+      <p class="text-white font-bold secular text-fluid max-w-[70%]">Saseffects</p>
+
+      <!-- Social Media -->
+      <div class="flex flex-wrap gap-5 max-w-[90%]"> 
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://twitch.tv/saseffects" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-twitch-fill"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://www.youtube.com/saseffects" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-youtube-fill"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://www.instagram.com/saseffects" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-instagram-line"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://www.tiktok.com/@saseffectss" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-tiktok-fill"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://x.com/saseffects" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-twitter-x-fill"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="https://bsky.app/profile/saseffects.com" target="_blank">
+          <span class="text-3xl font-medium"> <i class="ri-bluesky-fill"></i> </span>
+        </a>
+        <a class="inline-flex items-center gap-2 text-white hover:text-indigo-600 active:text-indigo-500" href="mailto:saseffects@live.com">
+          <span class="text-3xl font-medium"> <i class="ri-mail-line"></i> </span>
+        </a>
+      </div>
+
+      <!-- Description -->
+      <div class="mt-32 sm:mt-48 lg:mt-64 max-w-[85%]">
+        <div class="text-white sm:translate-y-8 sm:transform sm:opacity-0 sm:transition-all group-hover:translate-y-0 group-hover:opacity-100">
+          <p class="text-md text-base/loose text-wrap">
+            I'm Sas! I'm an Australian Twitch streamer and special effects makeup
+            artist who focuses on creating fun horror content! I started my career
+            on YouTube in 2012 then started streaming on Twitch in 2017. I provide
+            spooky entertainment filled with monster/character makeup looks, horror
+            gaming, and never-ending chatting with my chaotic, supportive community.
+          </p>
+          <span class="flex items-center my-4">
+            <span class="h-px flex-1 bg-white"></span>
+            <span class="shrink-0 px-6">Lorem, ipsum dolor</span>
+            <span class="h-px flex-1 bg-white"></span>
+          </span>
+          <p class="text-md text-base/loose text-wrap">
+            I'm Sas! I'm an Australian Twitch streamer and special effects makeup
+            artist who focuses on creating fun horror content! I started my career
+            on YouTube in 2012 then started streaming on Twitch in 2017. I provide
+            spooky entertainment filled with monster/character makeup looks, horror
+            gaming, and never-ending chatting with my chaotic, supportive community.
           </p>
         </div>
       </div>
     </div>
-  </a>
+  </div>
 </body>
 
 </html>
