@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4; 
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  max-width: 400px; 
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #333; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a i {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) { 
+  .container {
+      padding: 20px; 
+  }
+
+  .profile img {
+      width: 120px;
+      height: 120px;
+  }
+}
+
+.heading {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.horizontal-sections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 25%;
+  box-sizing: border-box;
+  background-color: red;
+  border: 1px solid #000;
+}
+.section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.stats {
+  font-size: 4em;
+}
+.stats-icon {
+  font-size: 1.5em;
+}

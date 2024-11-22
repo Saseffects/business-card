@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,node,react
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,node
 
 ### macOS ###
 # General
@@ -174,19 +174,6 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
-
-node_modules
-
-*.sublime*
-
-psd
-thumb
-sketch
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -206,7 +193,7 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node,react
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
